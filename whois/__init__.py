@@ -27,8 +27,12 @@ def query(domain, host=None, force=0, cache_file=None, slow_down=0, ignore_retur
         tld = 'co_jp'
     elif domain.endswith('.рф') or domain.endswith('.xn--p1ai'):
         tld = 'ru_rf'
-    elif domain.endswith('.in'):
-        tld = 'IN'
+    elif domain.endswith(('.as','.global','.help','.id','.in','.int','.is','.next','.property','.zip')):
+        # Convert TLD which matches a Python function/keyword by adding suffix
+        tld = d[-1] + '_'
+    elif '-' in domain:
+        # Convert invalid dict name
+        tld = d[-1].replace('-', '_')
     else:
         tld = d[-1]
 
