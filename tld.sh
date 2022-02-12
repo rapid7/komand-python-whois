@@ -23,6 +23,6 @@ EOF
 }
 
 for tld in $TLDs; do
-    [[ $SKIP =~ .*$tld.* ]] && continue
+    [[ $SKIP =~ (^|.*[[:space:]])$tld([[:space:]].*|$) ]] && continue
     config $tld
 done

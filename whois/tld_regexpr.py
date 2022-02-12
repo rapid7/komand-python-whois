@@ -516,6 +516,9 @@ alsace = {
 alstom = {
   'extend': 'com',
 }
+am = {
+  'extend': 'com',
+}
 americanfamily = {
   'extend': 'com',
 }
@@ -685,6 +688,9 @@ bet = {
   'extend': 'com',
 }
 bg = {
+  'extend': 'com',
+}
+bi = {
   'extend': 'com',
 }
 bid = {
@@ -1437,6 +1443,9 @@ flsmidth = {
 fly = {
   'extend': 'com',
 }
+fo = {
+  'extend': 'com',
+}
 foodnetwork = {
   'extend': 'com',
 }
@@ -2043,6 +2052,9 @@ lexus = {
 lgbt = {
   'extend': 'com',
 }
+li = {
+  'extend': 'com',
+}
 liaison = {
   'extend': 'com',
 }
@@ -2325,6 +2337,9 @@ my = {
 mz = {
   'extend': 'com',
 }
+na = {
+  'extend': 'com',
+}
 nab = {
   'extend': 'com',
 }
@@ -2373,6 +2388,9 @@ next_ = {
 nexus = {
   'extend': 'com',
 }
+nf = {
+  'extend': 'com',
+}
 ng = {
   'extend': 'com',
 }
@@ -2393,6 +2411,14 @@ nissan = {
 }
 nissay = {
   'extend': 'com',
+}
+nl = {
+  'extend': 'com',
+
+  'status': r'Status:\s?(.+)',
+  'name_servers': r'Domain nameservers:\n?(.+)\n?(.+)\n?(.+)',
+  'registrar_abuse_contact_email' : r'Abuse Contact:\s.+\s(.+@[\w.-]+\.[\w]{2,4})',
+  'registrar_abuse_contact_phone': r'Abuse Contact:\s(\s+\+.+)',
 }
 no = {
   'extend': 'com',
@@ -2442,7 +2468,13 @@ olayan = {
 ollo = {
   'extend': 'com',
 }
+om = {
+  'extend': 'com',
+}
 omega = {
+  'extend': 'com',
+}
+onl = {
   'extend': 'com',
 }
 one = {
