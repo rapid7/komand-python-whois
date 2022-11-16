@@ -7,7 +7,10 @@ curl https://gist.githubusercontent.com/thde/3890aa48e03a2b551374/raw/138589bfca
 TLDs=$(cut -d " " -f1 whois.conf | sed -e 's/\\//' -e 's/\.//' -e 's/\$//' | egrep -v '^$|^#')
 
 # Skip existing supported TLDs
-SKIP=$(grep = ./whois/tld_regexpr.py | cut -d " " -f1)
+# Skip commented TLDs
+# Remove underscore at end of TLDs
+# Replace underscore with hypen
+SKIP=$(grep = ./whois/tld_regexpr.py | sed -e 's/^#//g' -e 's/_\s/ /' -e 's/_/-/g' | cut -d " " -f1)
 
 config(){
 tld="$1"
@@ -20,6 +23,6 @@ EOF
 }
 
 for tld in $TLDs; do
-    [[ $SKIP =~ .*$tld.* ]] && continue
+    [[ $SKIP =~ (^|.*[[:space:]])$tld([[:space:]].*|$) ]] && continue
     config $tld
 done

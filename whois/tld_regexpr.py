@@ -516,6 +516,9 @@ alsace = {
 alstom = {
   'extend': 'com',
 }
+am = {
+  'extend': 'com',
+}
 americanfamily = {
   'extend': 'com',
 }
@@ -564,10 +567,9 @@ arte = {
 art = {
   'extend': 'com',
 }
-# as is Python keyword
-#as = {
-#  'extend': 'com',
-#}
+as_ = {
+  'extend': 'com',
+}
 asda = {
   'extend': 'com',
 }
@@ -686,6 +688,9 @@ bet = {
   'extend': 'com',
 }
 bg = {
+  'extend': 'com',
+}
+bi = {
   'extend': 'com',
 }
 bid = {
@@ -1438,6 +1443,9 @@ flsmidth = {
 fly = {
   'extend': 'com',
 }
+fo = {
+  'extend': 'com',
+}
 foodnetwork = {
   'extend': 'com',
 }
@@ -1570,11 +1578,9 @@ gle = {
 gl = {
   'extend': 'com',
 }
-
-# global is python keyword
-#global = {
-#  'extend': 'com',
-#}
+global_ = {
+  'extend': 'com',
+}
 globo = {
   'extend': 'com',
 }
@@ -1674,7 +1680,7 @@ hdfc = {
 healthcare = {
   'extend': 'com',
 }
-help = {
+help_ = {
   'extend': 'com',
 }
 helsinki = {
@@ -1773,7 +1779,7 @@ ice = {
 icu = {
   'extend': 'com',
 }
-id = {
+id_ = {
   'extend': 'com',
 }
 ie = {
@@ -1803,8 +1809,7 @@ immobilien = {
 immo = {
   'extend': 'com',
 }
-#Using "IN" as "in" is a keyword in python
-IN = {
+in_ = {
     'extend': 'com',
 }
 industries = {
@@ -1831,7 +1836,7 @@ insure = {
 international = {
   'extend': 'com',
 }
-int = {
+int_ = {
   'extend': 'com',
 }
 investments = {
@@ -1852,10 +1857,9 @@ irish = {
 iselect = {
   'extend': 'com',
 }
-# is is a Python keyword
-#is = {
-#  'extend': 'com',
-#}
+is_ = {
+  'extend': 'com',
+}
 ismaili = {
   'extend': 'com',
 }
@@ -2046,6 +2050,9 @@ lexus = {
   'extend': 'com',
 }
 lgbt = {
+  'extend': 'com',
+}
+li = {
   'extend': 'com',
 }
 liaison = {
@@ -2330,6 +2337,9 @@ my = {
 mz = {
   'extend': 'com',
 }
+na = {
+  'extend': 'com',
+}
 nab = {
   'extend': 'com',
 }
@@ -2372,10 +2382,13 @@ news = {
 nextdirect = {
   'extend': 'com',
 }
-next = {
+next_ = {
   'extend': 'com',
 }
 nexus = {
+  'extend': 'com',
+}
+nf = {
   'extend': 'com',
 }
 ng = {
@@ -2398,6 +2411,14 @@ nissan = {
 }
 nissay = {
   'extend': 'com',
+}
+nl = {
+  'extend': 'com',
+
+  'status': r'Status:\s?(.+)',
+  'name_servers': r'Domain nameservers:\n?(.+)\n?(.+)\n?(.+)',
+  'registrar_abuse_contact_email' : r'Abuse Contact:\s.+\s(.+@[\w.-]+\.[\w]{2,4})',
+  'registrar_abuse_contact_phone': r'Abuse Contact:\s(\s+\+.+)',
 }
 no = {
   'extend': 'com',
@@ -2447,7 +2468,13 @@ olayan = {
 ollo = {
   'extend': 'com',
 }
+om = {
+  'extend': 'com',
+}
 omega = {
+  'extend': 'com',
+}
+onl = {
   'extend': 'com',
 }
 one = {
@@ -2618,7 +2645,7 @@ promo = {
 properties = {
   'extend': 'com',
 }
-property = {
+property_ = {
   'extend': 'com',
 }
 protection = {
@@ -3503,319 +3530,318 @@ xihuan = {
 xin = {
   'extend': 'com',
 }
-# Invalid dict name
-#xn--11b4c3d = {
-#  'extend': 'com',
-#}
-#xn--1qqw23a = {
-#  'extend': 'com',
-#}
-#xn--30rr7y = {
-#  'extend': 'com',
-#}
-#xn--3bst00m = {
-#  'extend': 'com',
-#}
-#xn--3ds443g = {
-#  'extend': 'com',
-#}
-#xn--3e0b707e = {
-#  'extend': 'com',
-#}
-#xn--3oq18vl8pn36a = {
-#  'extend': 'com',
-#}
-#xn--3pxu8k = {
-#  'extend': 'com',
-#}
-#xn--42c2d9a = {
-#  'extend': 'com',
-#}
-#xn--45q11c = {
-#  'extend': 'com',
-#}
-#xn--4gbrim = {
-#  'extend': 'com',
-#}
-#xn--55qw42g = {
-#  'extend': 'com',
-#}
-#xn--55qx5d = {
-#  'extend': 'com',
-#}
-#xn--5su34j936bgsg = {
-#  'extend': 'com',
-#}
-#xn--5tzm5g = {
-#  'extend': 'com',
-#}
-#xn--6frz82g = {
-#  'extend': 'com',
-#}
-#xn--6qq986b3xl = {
-#  'extend': 'com',
-#}
-#xn--80adxhks = {
-#  'extend': 'com',
-#}
-#xn--80ao21a = {
-#  'extend': 'com',
-#}
-#xn--80aqecdr1a = {
-#  'extend': 'com',
-#}
-#xn--80asehdb = {
-#  'extend': 'com',
-#}
-#xn--80aswg = {
-#  'extend': 'com',
-#}
-#xn--90a3ac = {
-#  'extend': 'com',
-#}
-#xn--90ae = {
-#  'extend': 'com',
-#}
-#xn--90ais = {
-#  'extend': 'com',
-#}
-#xn--9dbq2a = {
-#  'extend': 'com',
-#}
-#xn--9et52u = {
-#  'extend': 'com',
-#}
-#xn--9krt00a = {
-#  'extend': 'com',
-#}
-#xn--b4w605ferd = {
-#  'extend': 'com',
-#}
-#xn--c1avg = {
-#  'extend': 'com',
-#}
-#xn--c2br7g = {
-#  'extend': 'com',
-#}
-#xn--cg4bki = {
-#  'extend': 'com',
-#}
-#xn--clchc0ea0b2g2a9gcd = {
-#  'extend': 'com',
-#}
-#xn--czrs0t = {
-#  'extend': 'com',
-#}
-#xn--czru2d = {
-#  'extend': 'com',
-#}
-#xn--d1acj3b = {
-#  'extend': 'com',
-#}
-#xn--d1alf = {
-#  'extend': 'com',
-#}
-#xn--e1a4c = {
-#  'extend': 'com',
-#}
-#xn--efvy88h = {
-#  'extend': 'com',
-#}
-#xn--estv75g = {
-#  'extend': 'com',
-#}
-#xn--fhbei = {
-#  'extend': 'com',
-#}
-#xn--fiq228c5hs = {
-#  'extend': 'com',
-#}
-#xn--fiq64b = {
-#  'extend': 'com',
-#}
-#xn--fiqs8s = {
-#  'extend': 'com',
-#}
-#xn--fiqz9s = {
-#  'extend': 'com',
-#}
-#xn--fjq720a = {
-#  'extend': 'com',
-#}
-#xn--flw351e = {
-#  'extend': 'com',
-#}
-#xn--fzys8d69uvgm = {
-#  'extend': 'com',
-#}
-#xn--hxt814e = {
-#  'extend': 'com',
-#}
-#xn--i1b6b1a6a2e = {
-#  'extend': 'com',
-#}
-#xn--io0a7i = {
-#  'extend': 'com',
-#}
-#xn--j1aef = {
-#  'extend': 'com',
-#}
-#xn--j1amh = {
-#  'extend': 'com',
-#}
-#xn--j6w193g = {
-#  'extend': 'com',
-#}
-#xn--jlq61u9w7b = {
-#  'extend': 'com',
-#}
-#xn--kcrx77d1x4a = {
-#  'extend': 'com',
-#}
-#xn--kprw13d = {
-#  'extend': 'com',
-#}
-#xn--kpry57d = {
-#  'extend': 'com',
-#}
-#xn--kput3i = {
-#  'extend': 'com',
-#}
-#xn--lgbbat1ad8j = {
-#  'extend': 'com',
-#}
-#xn--mgb9awbf = {
-#  'extend': 'com',
-#}
-#xn--mgba3a4f16a = {
-#  'extend': 'com',
-#}
-#xn--mgba7c0bbn0a = {
-#  'extend': 'com',
-#}
-#xn--mgbaam7a8h = {
-#  'extend': 'com',
-#}
-#xn--mgbab2bd = {
-#  'extend': 'com',
-#}
-#xn--mgbca7dzdo = {
-#  'extend': 'com',
-#}
-#xn--mgberp4a5d4ar = {
-#  'extend': 'com',
-#}
-#xn--mgbi4ecexp = {
-#  'extend': 'com',
-#}
-#xn--mgbt3dhd = {
-#  'extend': 'com',
-#}
-#xn--mgbtx2b = {
-#  'extend': 'com',
-#}
-#xn--mgbx4cd0ab = {
-#  'extend': 'com',
-#}
-#xn--mix891f = {
-#  'extend': 'com',
-#}
-#xn--mk1bu44c = {
-#  'extend': 'com',
-#}
-#xn--mxtq1m = {
-#  'extend': 'com',
-#}
-#xn--ngbc5azd = {
-#  'extend': 'com',
-#}
-#xn--ngbe9e0a = {
-#  'extend': 'com',
-#}
-#xn--node = {
-#  'extend': 'com',
-#}
-#xn--nqv7f = {
-#  'extend': 'com',
-#}
-#xn--nqv7fs00ema = {
-#  'extend': 'com',
-#}
-#xn--o3cw4h = {
-#  'extend': 'com',
-#}
-#xn--ogbpf8fl = {
-#  'extend': 'com',
-#}
-#xn--p1acf = {
-#  'extend': 'com',
-#}
-#xn--p1ai = {
-#  'extend': 'com',
-#}
-#xn--pssy2u = {
-#  'extend': 'com',
-#}
-#xn--q9jyb4c = {
-#  'extend': 'com',
-#}
-#xn--qcka1pmc = {
-#  'extend': 'com',
-#}
-#xn--rhqv96g = {
-#  'extend': 'com',
-#}
-#xn--ses554g = {
-#  'extend': 'com',
-#}
-#xn--t60b56a = {
-#  'extend': 'com',
-#}
-#xn--tckwe = {
-#  'extend': 'com',
-#}
-#xn--tiq49xqyj = {
-#  'extend': 'com',
-#}
-#xn--unup4y = {
-#  'extend': 'com',
-#}
-#xn--vermgensberater-ctb = {
-#  'extend': 'com',
-#}
-#xn--vermgensberatung-pwb = {
-#  'extend': 'com',
-#}
-#xn--vhquv = {
-#  'extend': 'com',
-#}
-#xn--vuq861b = {
-#  'extend': 'com',
-#}
-#xn--w4r85el8fhu5dnra = {
-#  'extend': 'com',
-#}
-#xn--w4rs40l = {
-#  'extend': 'com',
-#}
-#xn--wgbl6a = {
-#  'extend': 'com',
-#}
-#xn--xhq521b = {
-#  'extend': 'com',
-#}
-#xn--y9a3aq = {
-#  'extend': 'com',
-#}
-#xn--yfro4i67o = {
-#  'extend': 'com',
-#}
-#xn--ygbi2ammx = {
-#  'extend': 'com',
-#}
-#xn--zfr164b = {
-#  'extend': 'com',
-#}
+xn__11b4c3d = {
+  'extend': 'com',
+}
+xn__1qqw23a = {
+  'extend': 'com',
+}
+xn__30rr7y = {
+  'extend': 'com',
+}
+xn__3bst00m = {
+  'extend': 'com',
+}
+xn__3ds443g = {
+  'extend': 'com',
+}
+xn__3e0b707e = {
+  'extend': 'com',
+}
+xn__3oq18vl8pn36a = {
+  'extend': 'com',
+}
+xn__3pxu8k = {
+  'extend': 'com',
+}
+xn__42c2d9a = {
+  'extend': 'com',
+}
+xn__45q11c = {
+  'extend': 'com',
+}
+xn__4gbrim = {
+  'extend': 'com',
+}
+xn__55qw42g = {
+  'extend': 'com',
+}
+xn__55qx5d = {
+  'extend': 'com',
+}
+xn__5su34j936bgsg = {
+  'extend': 'com',
+}
+xn__5tzm5g = {
+  'extend': 'com',
+}
+xn__6frz82g = {
+  'extend': 'com',
+}
+xn__6qq986b3xl = {
+  'extend': 'com',
+}
+xn__80adxhks = {
+  'extend': 'com',
+}
+xn__80ao21a = {
+  'extend': 'com',
+}
+xn__80aqecdr1a = {
+  'extend': 'com',
+}
+xn__80asehdb = {
+  'extend': 'com',
+}
+xn__80aswg = {
+  'extend': 'com',
+}
+xn__90a3ac = {
+  'extend': 'com',
+}
+xn__90ae = {
+  'extend': 'com',
+}
+xn__90ais = {
+  'extend': 'com',
+}
+xn__9dbq2a = {
+  'extend': 'com',
+}
+xn__9et52u = {
+  'extend': 'com',
+}
+xn__9krt00a = {
+  'extend': 'com',
+}
+xn__b4w605ferd = {
+  'extend': 'com',
+}
+xn__c1avg = {
+  'extend': 'com',
+}
+xn__c2br7g = {
+  'extend': 'com',
+}
+xn__cg4bki = {
+  'extend': 'com',
+}
+xn__clchc0ea0b2g2a9gcd = {
+  'extend': 'com',
+}
+xn__czrs0t = {
+  'extend': 'com',
+}
+xn__czru2d = {
+  'extend': 'com',
+}
+xn__d1acj3b = {
+  'extend': 'com',
+}
+xn__d1alf = {
+  'extend': 'com',
+}
+xn__e1a4c = {
+  'extend': 'com',
+}
+xn__efvy88h = {
+  'extend': 'com',
+}
+xn__estv75g = {
+  'extend': 'com',
+}
+xn__fhbei = {
+  'extend': 'com',
+}
+xn__fiq228c5hs = {
+  'extend': 'com',
+}
+xn__fiq64b = {
+  'extend': 'com',
+}
+xn__fiqs8s = {
+  'extend': 'com',
+}
+xn__fiqz9s = {
+  'extend': 'com',
+}
+xn__fjq720a = {
+  'extend': 'com',
+}
+xn__flw351e = {
+  'extend': 'com',
+}
+xn__fzys8d69uvgm = {
+  'extend': 'com',
+}
+xn__hxt814e = {
+  'extend': 'com',
+}
+xn__i1b6b1a6a2e = {
+  'extend': 'com',
+}
+xn__io0a7i = {
+  'extend': 'com',
+}
+xn__j1aef = {
+  'extend': 'com',
+}
+xn__j1amh = {
+  'extend': 'com',
+}
+xn__j6w193g = {
+  'extend': 'com',
+}
+xn__jlq61u9w7b = {
+  'extend': 'com',
+}
+xn__kcrx77d1x4a = {
+  'extend': 'com',
+}
+xn__kprw13d = {
+  'extend': 'com',
+}
+xn__kpry57d = {
+  'extend': 'com',
+}
+xn__kput3i = {
+  'extend': 'com',
+}
+xn__lgbbat1ad8j = {
+  'extend': 'com',
+}
+xn__mgb9awbf = {
+  'extend': 'com',
+}
+xn__mgba3a4f16a = {
+  'extend': 'com',
+}
+xn__mgba7c0bbn0a = {
+  'extend': 'com',
+}
+xn__mgbaam7a8h = {
+  'extend': 'com',
+}
+xn__mgbab2bd = {
+  'extend': 'com',
+}
+xn__mgbca7dzdo = {
+  'extend': 'com',
+}
+xn__mgberp4a5d4ar = {
+  'extend': 'com',
+}
+xn__mgbi4ecexp = {
+  'extend': 'com',
+}
+xn__mgbt3dhd = {
+  'extend': 'com',
+}
+xn__mgbtx2b = {
+  'extend': 'com',
+}
+xn__mgbx4cd0ab = {
+  'extend': 'com',
+}
+xn__mix891f = {
+  'extend': 'com',
+}
+xn__mk1bu44c = {
+  'extend': 'com',
+}
+xn__mxtq1m = {
+  'extend': 'com',
+}
+xn__ngbc5azd = {
+  'extend': 'com',
+}
+xn__ngbe9e0a = {
+  'extend': 'com',
+}
+xn__node = {
+  'extend': 'com',
+}
+xn__nqv7f = {
+  'extend': 'com',
+}
+xn__nqv7fs00ema = {
+  'extend': 'com',
+}
+xn__o3cw4h = {
+  'extend': 'com',
+}
+xn__ogbpf8fl = {
+  'extend': 'com',
+}
+xn__p1acf = {
+  'extend': 'com',
+}
+xn__p1ai = {
+  'extend': 'com',
+}
+xn__pssy2u = {
+  'extend': 'com',
+}
+xn__q9jyb4c = {
+  'extend': 'com',
+}
+xn__qcka1pmc = {
+  'extend': 'com',
+}
+xn__rhqv96g = {
+  'extend': 'com',
+}
+xn__ses554g = {
+  'extend': 'com',
+}
+xn__t60b56a = {
+  'extend': 'com',
+}
+xn__tckwe = {
+  'extend': 'com',
+}
+xn__tiq49xqyj = {
+  'extend': 'com',
+}
+xn__unup4y = {
+  'extend': 'com',
+}
+xn__vermgensberater_ctb = {
+  'extend': 'com',
+}
+xn__vermgensberatung_pwb = {
+  'extend': 'com',
+}
+xn__vhquv = {
+  'extend': 'com',
+}
+xn__vuq861b = {
+  'extend': 'com',
+}
+xn__w4r85el8fhu5dnra = {
+  'extend': 'com',
+}
+xn__w4rs40l = {
+  'extend': 'com',
+}
+xn__wgbl6a = {
+  'extend': 'com',
+}
+xn__xhq521b = {
+  'extend': 'com',
+}
+xn__y9a3aq = {
+  'extend': 'com',
+}
+xn__yfro4i67o = {
+  'extend': 'com',
+}
+xn__ygbi2ammx = {
+  'extend': 'com',
+}
+xn__zfr164b = {
+  'extend': 'com',
+}
 xperia = {
   'extend': 'com',
 }
@@ -3846,7 +3872,7 @@ yun = {
 zara = {
   'extend': 'com',
 }
-zip = {
+zip_ = {
   'extend': 'com',
 }
 zm = {
