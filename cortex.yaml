@@ -1,0 +1,21 @@
+---
+info:
+  title: Komand Python Whois
+  description: Fork of https://code.google.com/p/python-whois/ project. This fork
+    adds the remainder of the WHOIS information to the Domain class.
+  x-cortex-git:
+    github:
+      alias: r7org
+      repository: rapid7/komand-python-whois
+  x-cortex-tag: komand-python-whois
+  x-cortex-type: service
+  x-cortex-groups:
+  - target:eks
+  - strategy:cloud
+  - exposure:internal-ship
+  - status:deployed
+  x-cortex-domain-parents:
+  - tag: insightconnect
+openapi: 3.0.1
+servers:
+- url: "/"
