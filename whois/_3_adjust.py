@@ -110,8 +110,8 @@ def str_to_date(text):
         return
 
     text = text.replace('(jst)', '(+0900)')
-    text = re.sub('(\+[0-9]{2}):([0-9]{2})', '\\1\\2', text)
-    text = re.sub('(\ #.*)', '', text)
+    text = re.sub(r'(\+[0-9]{2}):([0-9]{2})', '\\1\\2', text)
+    text = re.sub(r'(\ #.*)', '', text)
     # hack for 1st 2nd 3rd 4th etc
     # better here https://stackoverflow.com/questions/1258199/python-datetime-strptime-wildcard
     text = re.sub(r"(\d+)(st|nd|rd|th) ", r"\1 ", text)
@@ -129,14 +129,14 @@ def str_to_date(text):
 
 
 def str_to_date_py2(s):
-    tmp = re.findall('\s([+-][0-9]{2})00', s)
+    tmp = re.findall(r'\s([+-][0-9]{2})00', s)
     if tmp:
         tz = int(tmp[0][1])
     else:
         tz = 0
 
-    s = re.sub('\s\([+-]([0-9]{2})([0-9]{2})\)', '', s)
-    s = re.sub('\s[+-]([0-9]{2})([0-9]{2})', '', s)
+    s = re.sub(r'\s\([+-]([0-9]{2})([0-9]{2})\)', '', s)
+    s = re.sub(r'\s[+-]([0-9]{2})([0-9]{2})', '', s)
 
     for format in DATE_FORMATS:
         try:
